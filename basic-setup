@@ -1,0 +1,9 @@
+#Githuka.com
+#Saturday 18th April 2017
+#Safaricom-Bundles python app
+
+import requests
+from bs4 import BeautifulSoup
+
+page = requests.get("http://www.safaricom.com/bigbox/#")
+soup = BeautifulSoup(page.content, 'html.parser')
