@@ -1,5 +1,10 @@
 After sifting through the output I came across the following data
+--
+---
 "Oops, we are unable to detect your device number"
+"Kindly refresh your browser or attach your device."
+---
+--
 This means that my python script is not being recognised by the website.
 When you access the website from your browser, it sends out some information with the device number etc
 
